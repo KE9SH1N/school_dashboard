@@ -916,145 +916,69 @@ export const announcementsData = [
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
 	{
-		title: "Math",
+		title: "Mathematics",
 		allDay: false,
-		start: new Date(2024, 7, 12, 8, 0),
-		end: new Date(2024, 7, 12, 8, 45),
+		start: new Date(2024, 9, 10, 12, 0), // October 10, 2024 at 12:00 PM
+		end: new Date(2024, 9, 10, 13, 0), // Ends at 1:00 PM
 	},
 	{
-		title: "English",
+		title: "English Literature",
 		allDay: false,
-		start: new Date(2024, 7, 12, 9, 0),
-		end: new Date(2024, 7, 12, 9, 45),
+		start: new Date(2024, 9, 15, 9, 0), // October 15, 2024 at 9:00 AM
+		end: new Date(2024, 9, 15, 10, 0), // Ends at 10:00 AM
+	},
+	{
+		title: "History",
+		allDay: false,
+		start: new Date(2024, 9, 16, 14, 0), // October 16, 2024 at 2:00 PM
+		end: new Date(2024, 9, 16, 15, 0), // Ends at 3:00 PM
+	},
+	{
+		title: "Computer Science",
+		allDay: false,
+		start: new Date(2024, 9, 17, 11, 0), // October 17, 2024 at 11:00 AM
+		end: new Date(2024, 9, 17, 12, 0), // Ends at 12:00 PM
 	},
 	{
 		title: "Biology",
 		allDay: false,
-		start: new Date(2024, 7, 12, 10, 0),
-		end: new Date(2024, 7, 12, 10, 45),
-	},
-	{
-		title: "Physics",
-		allDay: false,
-		start: new Date(2024, 7, 12, 11, 0),
-		end: new Date(2024, 7, 12, 11, 45),
+		start: new Date(2024, 9, 20, 10, 0), // October 20, 2024 at 10:00 AM
+		end: new Date(2024, 9, 20, 11, 0), // Ends at 11:00 AM
 	},
 	{
 		title: "Chemistry",
 		allDay: false,
-		start: new Date(2024, 7, 12, 13, 0),
-		end: new Date(2024, 7, 12, 13, 45),
-	},
-	{
-		title: "History",
-		allDay: false,
-		start: new Date(2024, 7, 12, 14, 0),
-		end: new Date(2024, 7, 12, 14, 45),
-	},
-	{
-		title: "English",
-		allDay: false,
-		start: new Date(2024, 7, 13, 9, 0),
-		end: new Date(2024, 7, 13, 9, 45),
-	},
-	{
-		title: "Biology",
-		allDay: false,
-		start: new Date(2024, 7, 13, 10, 0),
-		end: new Date(2024, 7, 13, 10, 45),
+		start: new Date(2024, 9, 21, 9, 30), // October 21, 2024 at 9:30 AM
+		end: new Date(2024, 9, 21, 10, 30), // Ends at 10:30 AM
 	},
 	{
 		title: "Physics",
 		allDay: false,
-		start: new Date(2024, 7, 13, 11, 0),
-		end: new Date(2024, 7, 13, 11, 45),
-	},
-
-	{
-		title: "History",
-		allDay: false,
-		start: new Date(2024, 7, 13, 14, 0),
-		end: new Date(2024, 7, 13, 14, 45),
+		start: new Date(2024, 9, 22, 12, 0), // October 22, 2024 at 12:00 PM
+		end: new Date(2024, 9, 22, 13, 0), // Ends at 1:00 PM
 	},
 	{
-		title: "Math",
+		title: "Art",
 		allDay: false,
-		start: new Date(2024, 7, 14, 8, 0),
-		end: new Date(2024, 7, 14, 8, 45),
+		start: new Date(2024, 9, 23, 15, 0), // October 23, 2024 at 3:00 PM
+		end: new Date(2024, 9, 23, 16, 0), // Ends at 4:00 PM
 	},
 	{
-		title: "Biology",
+		title: "Physical Education",
 		allDay: false,
-		start: new Date(2024, 7, 14, 10, 0),
-		end: new Date(2024, 7, 14, 10, 45),
-	},
-
-	{
-		title: "Chemistry",
-		allDay: false,
-		start: new Date(2024, 7, 14, 13, 0),
-		end: new Date(2024, 7, 14, 13, 45),
+		start: new Date(2024, 9, 24, 11, 0), // October 24, 2024 at 11:00 AM
+		end: new Date(2024, 9, 24, 12, 0), // Ends at 12:00 PM
 	},
 	{
-		title: "History",
+		title: "Music",
 		allDay: false,
-		start: new Date(2024, 7, 14, 14, 0),
-		end: new Date(2024, 7, 13, 14, 45),
+		start: new Date(2024, 9, 27, 14, 0), // October 27, 2024 at 2:00 PM
+		end: new Date(2024, 9, 27, 17, 0), // Ends at 5:00 PM
 	},
 	{
-		title: "English",
+		title: "Social Studies",
 		allDay: false,
-		start: new Date(2024, 7, 15, 9, 0),
-		end: new Date(2024, 7, 15, 9, 45),
-	},
-	{
-		title: "Biology",
-		allDay: false,
-		start: new Date(2024, 7, 15, 10, 0),
-		end: new Date(2024, 7, 15, 10, 45),
-	},
-	{
-		title: "Physics",
-		allDay: false,
-		start: new Date(2024, 7, 15, 11, 0),
-		end: new Date(2024, 7, 15, 11, 45),
-	},
-
-	{
-		title: "History",
-		allDay: false,
-		start: new Date(2024, 7, 15, 14, 0),
-		end: new Date(2024, 7, 15, 14, 45),
-	},
-	{
-		title: "Math",
-		allDay: false,
-		start: new Date(2024, 7, 16, 8, 0),
-		end: new Date(2024, 7, 16, 8, 45),
-	},
-	{
-		title: "English",
-		allDay: false,
-		start: new Date(2024, 7, 16, 9, 0),
-		end: new Date(2024, 7, 16, 9, 45),
-	},
-
-	{
-		title: "Physics",
-		allDay: false,
-		start: new Date(2024, 7, 16, 11, 0),
-		end: new Date(2024, 7, 16, 11, 45),
-	},
-	{
-		title: "Chemistry",
-		allDay: false,
-		start: new Date(2024, 7, 16, 13, 0),
-		end: new Date(2024, 7, 16, 13, 45),
-	},
-	{
-		title: "History",
-		allDay: false,
-		start: new Date(2024, 7, 16, 14, 0),
-		end: new Date(2024, 7, 16, 14, 45),
+		start: new Date(2024, 9, 30, 10, 0), // October 30, 2024 at 10:00 AM
+		end: new Date(2024, 9, 30, 11, 30), // Ends at 11:30 AM
 	},
 ];
