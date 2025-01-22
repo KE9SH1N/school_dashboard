@@ -1,6 +1,4 @@
 "use client";
-
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -9,12 +7,12 @@ import { useState } from "react";
 // import TeacherForm from "./forms/TeacherForm";
 // import StudentForm from "./forms/StudentForm";
 
-const TeacherForm = dynamic(() => import("../components/forms/TeacherForm"), {
-	loading: () => <h1>Loading...</h1>,
-});
-const StudentForm = dynamic(() => import("../components/forms/StudentForm"), {
-	loading: () => <h1>Loading...</h1>,
-});
+// const TeacherForm = dynamic(() => import("../components/forms/TeacherForm"), {
+// 	loading: () => <h1>Loading...</h1>,
+// });
+// const StudentForm = dynamic(() => import("../components/forms/StudentForm"), {
+// 	loading: () => <h1>Loading...</h1>,
+// });
 
 // const forms: {
 // 	[key: string]: (type: "create" | "update", data?: any) => JSX.Element;
@@ -42,7 +40,7 @@ const FormModal = ({
 		| "event"
 		| "announcement";
 	type: "create" | "update" | "delete";
-	data?: any;
+	data?: unknown;
 	id?: number;
 }) => {
 	const size = type === "create" ? "w-8 h-8" : "w-7 h-7";
