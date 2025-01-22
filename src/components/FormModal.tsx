@@ -4,8 +4,8 @@ import { useState } from "react";
 
 // USE LAZY LOADING
 
-// import TeacherForm from "./forms/TeacherForm";
-// import StudentForm from "./forms/StudentForm";
+import TeacherForm from "./forms/TeacherForm";
+import StudentForm from "./forms/StudentForm";
 
 // const TeacherForm = dynamic(() => import("../components/forms/TeacherForm"), {
 // 	loading: () => <h1>Loading...</h1>,
@@ -14,12 +14,12 @@ import { useState } from "react";
 // 	loading: () => <h1>Loading...</h1>,
 // });
 
-// const forms: {
-// 	[key: string]: (type: "create" | "update", data?: any) => JSX.Element;
-// } = {
-// 	teacher: (type, data) => <TeacherForm type={type} data={data} />,
-// 	student: (type, data) => <StudentForm type={type} data={data} />,
-// };
+const forms: {
+	[key: string]: (type: "create" | "update", data?: any) => JSX.Element;
+} = {
+	teacher: (type, data) => <TeacherForm type={type} data={data} />,
+	student: (type, data) => <StudentForm type={type} data={data} />,
+};
 
 const FormModal = ({
 	table,
@@ -40,7 +40,7 @@ const FormModal = ({
 		| "event"
 		| "announcement";
 	type: "create" | "update" | "delete";
-	data?: unknown;
+	data?: any;
 	id?: number;
 }) => {
 	const size = type === "create" ? "w-8 h-8" : "w-7 h-7";
@@ -64,9 +64,9 @@ const FormModal = ({
 				</button>
 			</form>
 		) : type === "create" || type === "update" ? (
-			// forms[table](type, data)
-			<div>abc</div>
+			forms[table](type)
 		) : (
+			// <div>abc</div>
 			"Form not found!"
 		);
 	};
