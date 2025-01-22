@@ -5,7 +5,7 @@ const Table = ({
 }: {
 	columns: { header: string; accessor: string; className?: string }[];
 	renderRow: (item: any) => React.ReactNode;
-	data: any[];
+	data: unknown[];
 }) => {
 	return (
 		<table className="w-full mt-4">
