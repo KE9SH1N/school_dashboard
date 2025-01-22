@@ -1,7 +1,6 @@
 import Announcements from "@/components/Announcements";
 import BigCalendar from "../../../../../components/BigCalendar";
 // import FormModal from "@/components/FormModal";
-import { role } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import Performance from "@/components/Performance";

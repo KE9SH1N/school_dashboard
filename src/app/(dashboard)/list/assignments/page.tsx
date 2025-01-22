@@ -2,7 +2,7 @@
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
-import { assignmentsData, role } from "@/lib/data";
+import { assignmentsData } from "@/lib/data";
 import Image from "next/image";
 
 type Assignment = {

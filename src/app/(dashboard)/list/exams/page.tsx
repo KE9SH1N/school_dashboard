@@ -2,7 +2,7 @@
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
-import { examsData, role } from "@/lib/data";
+import { examsData } from "@/lib/data";
 import Image from "next/image";
 
 type Exam = {
